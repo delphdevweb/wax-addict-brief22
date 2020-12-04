@@ -292,6 +292,11 @@ back-office / mobile
     padding: 1rem;
   }
 
+  .prod {
+    width: 100px;
+    height: 100px;
+  }
+
   body.back-office footer {
     background-color: rgba(0 0 0 / 10%);
     color: rgba(0 0 0 / 75%);
@@ -341,6 +346,12 @@ back-office / desktop
     justify-content: center;
     align-content: center;
     grid-template-columns: 70rem;
+  }
+
+  .prod {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
   }
 
   body.back-office footer {
